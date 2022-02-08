@@ -12,7 +12,14 @@ var country = "India";
 
 var state = "Rajasthan";
 
+var courseName;      // this variable is undefined, if we print it before defining it or before give it any value
+                    // then this will return us - undefined
 
+// Both are same
+console.log("Full Name is :", fullName);
+console.log("Full Name is :" + fullName);
+
+// But more efficient way to perform that ->
 console.log(`
           With User ID: ${uid}
           User is : ${fullName}
