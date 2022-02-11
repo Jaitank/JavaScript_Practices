@@ -4,7 +4,7 @@
 
 Now lets talk about execution context - It comes in stack and it executes the code.
 
- Execution context is comes in stack for every line suppose we declare var name = "jai"; it comes and blows away after this line.
+ Execution context comes in stack for every line suppose we declare var name = "jai"; it comes and blown away after this line.
 
  Suppose a function is called, then execution context comes in stack while the whole code execute, and blown away after it complete.
 
